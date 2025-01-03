@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Самостійна робота</title>
+</head>
+
+<body>
+<!-- Самостійна робота №1-->
+    <section class="first">
+        <h1 class="first_title">Самостійна робота №1</h1>
+        <ul class="first_list">
+            <ol>
+                <h2>1.1 Що таке HTML?</h2>
+                <ul>
+                    <li>HTML є стандартною мовою розмітки для створення веб-сторінок.</li>
+                    <li>HTML означає Hyper Text Markup Language (мова гіпертекстової розмітки)</li>
+                    <li>HTML описує структуру веб-сторінок за допомогою розмітки</li>
+                    <li>HTML-елементи є будівельними блоками сторінок HTML</li>
+                    <li>Елементи HTML представлені тегами</li>
+                    <li>Теги HTML позначають фрагменти змісту, такі як header (заголовок), paragraph (параграф), table (таблиця) та ін.</li>
+                    <li>Браузери не відображають HTML теги, але використовують їх для відображення змісту web-сторінки</li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.2 HTML Редактори коду та IDE</h2>
+                <ul>
+                    <li>Редактор Notepad ++</li>
+                    <li>Редактор Brackets</li>
+                    <li>Редактор Sublime Text</li>
+                    <li>IDE Atom</li>
+                    <li>IDE Visual Studio Code</li>
+                    <li>IDE WebStorm / PHPStorm</li>
+                    <li>IDE Dreamweaver</li>
+                    <li>IDE Eclipse</li>
+                    <li>IDE NetBeans</li>
+                    <li>IDE Komodo</li>
+                    <li>IDE Emacs</li>
+                    <li>IDE Ultraedit</li>
+                    <li>IDE Xcode (для Apple)</li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.3 HTML Основні приклади</h2>
+                <ul style="list-style-type: none;">
+                    <li>
+                        HTML Документи:
+                        <h1>Мій перший заголовок</h1>
+                        <p>Мій перший параграф.</p>
+                    </li>
+                    <li>
+                        HTML Заголовки:
+                        <h1>Це заголовок 1</h1>
+                        <h2>Це заголовок 2</h2>
+                        <h3>Це заголовок 3</h3>
+                    </li>
+                    <li>
+                        HTML Параграфи:
+                        <p>Це параграф.</p>
+                        <p>Це інший параграф.</p>
+                    </li>
+                    <li>
+                        HTML Посилання:
+                        <a href="https://w3schoolsua.github.io/">Це посилання</a>
+                        <img style="display: block;" src="./html.jpg" alt="W3Schools" width="150">
+                    </li>
+                    <li>
+                        HTML Кнопки:
+                        <button>Натисніть мене</button>
+                    </li>
+                    <li>
+                        HTML Списки:<br>
+                        <h2>Невпорядкований список HTML</h2>
+                        <ul>
+                            <li>Кава</li>
+                            <li>Чай</li>
+                            <li>Молоко</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Впорядкований список HTML</h2>
+                        <ol>
+                            <li>Кава</li>
+                            <li>Чай</li>
+                            <li>Молоко</li>
+                        </ol></br>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.4 HTML Елементи</h2>
+                <p>
+                    HTML елемент зазвичай складається із тегу початкового і тегу кінцевого, а зміст вставляється поміж ними:
+                    &lt;tagname&gt;Зміст розміщується тут...&lt;/tagname&gt;<br>
+                    HTML елемент - це все від початкового тегу до кінцевого тегу.
+                </p>
+                <p>
+                    <strong style="display: block;">Вкладені HTML елементи</strong>
+                    HTML елементи можуть бути вкладеними (елементи можуть містити елементи).
+                </p>
+                <p>
+                    Всі документи HTML складаються з вкладених елементів HTML.
+                    <h1>Це заголовок</h1>
+                    <p>Це параграф.</p>
+                    <p>HTML елементи без вмісту називаються порожніми елементами. Елемент &lt;br> - це порожній елемент без закриваючого тегу (тег <br> визначає обрив рядка)</p>
+                    <p>Це параграф<br> з обривом рядка.</p>
+                </p>
+            </ol>
+            <ol>
+                <h2>1.5 HTML Атрибути</h2>
+                <ul>
+                    <li>Всі HTML елементи можуть мати атрибути</li>
+                    <li>Атрибути надають додаткову інформацію про елемент</li>
+                    <li>Атрибути завжди вказуються в початковому тезі</li>
+                    <li>Атрибути зазвичай входять в пари ім'я/значення, наприклад: ім'я="значення"</li>
+                </ul>
+                <a href="https://w3schoolsua.github.io/">Це посилання</a><br>
+                <img src="./img_girl.jpg" alt="Дівчина в жакеті" width="500" height="600"><br>
+                <p style="color:red">Це параграф червоного кольору.</p>
+                <p title='Я виринаюча підказка'>Це параграф.</p> 
+                <p>
+                    Стандарт HTML5 не вимагає імен атрибутів в нижньому регістрі. <br>
+                    Атрибут title може бути написаний у верхньому або нижньому регістрі, наприклад title або TITLE. <br>
+                    W3C рекомендує використовувати нижній регістр в HTML і вимагає нижній регістр для більш строгих типів документів, таких як XHTML.
+                </p>
+            </ol>
+            <ol>
+                <h2>1.6 HTML Параграфи</h2>
+                <p>Це перший параграф.</p>
+                <p>Це другий параграф.</p>
+                <p>Цей<br>параграф<br>має розриви рядка.</p>
+                <span>HTML елемент &lt;pre&gt; визначає форматований текст. Текст всередині елементу &lt;pre&gt; відображається шрифтом фіксованої ширини (зазвичай Courier),<br>і він зберігає пробіли та розриви рядків:</span>
+                <pre>
+                    І ось ідем у бою життєвому.
+                    
+                    Міцні, тверді, незламні мов граніт,
+                    
+                    Бо плач не дав свободи ще нікому,
+                    
+                    А хто борець, той здобуває світ.
+                </pre>
+            </ol>
+            <ol>
+                <h2>1.7 HTML Посилання</h2>
+                <p>
+                    HTML посилання - це гіперпосилання. Ви можете натиснути на посилання і перейти до іншого документу. 
+                    При наведенні миші на посилання стрілка миші перетвориться в маленьку стрілку. 
+                    Примітка: Посилання не обов'язково повинно бути текстовим. Посиланням може бути зображення або будь-який інший HTML елемент.
+                </p>
+                <a href="https://www.w3schools.com/html/">HTML уроки для початківців онлайн</a>
+                <a href="html_images.html">HTML Зображення</a><br>
+                <a href="https://w3schoolsua.github.io/">Це текст посилання</a>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <h3>1.7.1 HTML Посилання - Різні кольори</h3>
+                        За замовчуванням посилання відображатиметься таким (у всіх браузерах):
+                        <ul>
+                            <li>Невідвідане посилання підкреслено, синім кольором</li>
+                            <li>Відвідане посилання підкреслено, фіолетовим кольором</li>
+                            <li>Активне посилання підкреслено, червоним кольором</li>
+                        </ul>
+                        <style>
+                            a:link {
+                                color: rgb(83, 4, 83);
+                            }
+                
+                            a:visited {
+                                color: rgb(11, 230, 15);
+                            }
+                
+                            a:hover {
+                                color: rgb(0, 217, 255);
+                            }
+                
+                            a:active {
+                                color: yellow;
+                            }
+                        </style>
+                        <a href="https://example.com">Кольорове посилання</a>
+                    </li>
+                    <li>
+                        <h3>1.7.2 HTML Посилання - Створення закладок</h3>
+                        <p>
+                            Закладки можуть бути корисними, якщо вебсторінка дуже довга. 
+                            Щоб створити закладку - спочатку створіть закладку, а потім додайте на неї посилання. 
+                            Після натискання на посилання сторінка прокручується вниз або вгору до місця із закладкою.
+                        </p>
+                        <a href="#div">Перейти до розділу 1</a>
+                        <h2 id="div">Розділ 1</h2>
+                        <p>Це текст розділу 1.</p>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.8 HTML Зображення</h2>
+                <p>
+                    HTML Синтаксис зображень <br>
+                    В HTML зображення визначаються за допомогою тега &lt;img>.
+                    Тег &lt;img&gt; пустий, містить лише атрибути і не має закриваючого тега. 
+                    Атрибут src вказує URL (вебадресу) зображення. 
+                    Атрибут alt надає альтернативний текст для зображення, якщо користувач з якоїсь причини не може його переглянути: через повільне  
+                    підключення до Інтернету, помилки в атрибуті src або якщо користувач використовує програму читання з екрана (скрінрідер). 
+                    Значення атрибута alt має описувати зображення, тобто те, що на ньому зображено
+                </p>
+                <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <h3>1.8.1 HTML Карти зображень</h3>
+                        <p>
+                            HTML тег &lt;map&gt; визначає карту зображення. Карта зображень - це зображення із клікабельними областями. 
+                            Області визначаються одним або кількома тегами &lt;area&gt;. 
+                            Ідея карти зображення полягає в тому, що ви повинні мати можливість виконувати різні дії залежно від того, де на зображенні ви клацаєте. 
+                            Для створення карти зображень вам потрібно зображення та деякий HTML-код, який описує області, на які можна натиснути.
+                        </p>
+                        <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+                        <map name="workmap">
+                        <area shape="rect" coords="34,44,270,350" alt="Комп’ютер" href="https://w3schoolsua.github.io/html/computer.html">
+                        <area shape="rect" coords="290,172,333,250" alt="Телефон" href="https://w3schoolsua.github.io/html/phone.html">
+                        <area shape="circle" coords="337,300,44" alt="Кава" href="https://w3schoolsua.github.io/html/coffee.html">
+                        </map>
+                    </li>
+                    <li>
+                        <h3>1.8.2 HTML Фонові зображення</h3>
+                        <p>
+                            Щоб додати фонове зображення до елемента HTML, використовуйте HTML атрибут style та CSS властивість background-image. 
+                            Якщо ви хочете, щоб фонове зображення охоплювало весь елемент, ви можете встановити для властивості background-size значення cover. 
+                            Також, щоб увесь елемент був завжди покритий, встановіть для властивості background-attachment значення fixed. 
+                            Таким чином, фонове зображення покриє весь елемент, не розтягуючись (зображення збереже початкові пропорції).
+                        </p>
+                        <style>
+                            .background {
+                                width: 500px;
+                                height: 600px;
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                                background-image: url('./img_girl.jpg');
+                            }
+                        </style>
+                        <p class="background">Текст з фоновим зображенням.</p>
+                    </li>
+                    <li>
+                        <h3>1.8.3 HTML елемент &lt;picture&gt;</h3>
+                        <p>
+                            HTML елемент &lt;picture&gt; надає веб-розробникам більшу гнучкість у визначенні графічних ресурсів. 
+                            Елемент &lt;picture&gt; містить один або кілька елементів &lt;source&gt; кожен з яких посилається на різні зображення через атрибут srcset. <br> 
+                            Таким чином браузер може вибрати зображення, яке найкраще відповідає поточному перегляду та/або пристрою.
+                            Кожен елемент &lt;source&gt; має атрибут media який визначає, коли зображення є найбільш підходящим.
+                        </p>
+                        <picture>
+                            <source media="(min-width: 650px)" srcset="img_girl.jpg">
+                            <source media="(min-width: 465px)" srcset="pic_trulli.jpg">
+                            <img src="workplace.jpg" alt="Зображення">
+                        </picture>
+                    </li>
+                    <li>
+                        <h3>1.8.4 HTML Favicon / Фавікон</h3>
+                        <p>
+                            В якості фавіконки може бути використане будь-яке зображення. Також можна створити свій власний фавікон на таких сайтах, як <a href="https://favicon.cc">favicon.cc</a> 
+                            Щоб додати фавіконку на свій вебсайт, або збережіть зображення значка в кореневому каталозі вашого вебсервера, або створіть папку в кореневому каталозі з іменем images і збережіть зображення фавіконки в цій папці. Розповсюджена назва зображення фавікона: "favicon.ico", потім додайте елемент &lt;link&gt; в файл "index.html" після елемента &lt;title&gt; &lt;/title&gt;
+                        </p>
+                        <strong>Приклад:</strong> &lt;link rel="icon" type="image/x-icon" href="/images/favicon.ico"&gt;
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.9 HTML Таблиці</h2>
+                <p>
+                    Тег &lt;table&gt; визначає HTML таблицю.
+                    Кожен рядок таблиці визначається тегом &lt;tr&gt;. Кожен заголовок таблиці визначається тегом &lt;th&gt;.
+                    Кожна чарунка з даними таблиці визначається тегом &lt;td&gt;.
+                    За замовчуванням текст в елементах &lt;th&gt; виділений жирним шрифтом і відцентрований.
+                    За замовчуванням текст в елементах &lt;td&gt; є звичайним і вирівняним за лівим краєм.
+                </p>
+                <table id="t01">
+                    <tr>
+                      <th>Ім'я</th>
+                      <th>Прізвище</th>
+                      <th>Вік</th>
+                    </tr>
+                    <tr>
+                      <td>Марія</td>
+                      <td>Іванко</td>
+                      <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Євген</td>
+                        <td>Котов</td>
+                        <td>29</td>
+                    </tr>
+                </table>
+                <ul  style="list-style-type: none;">
+                    <li>
+                        <h3>1.9.1 HTML Межі таблиці</h3>
+                        <p>
+                            Щоб додати межу, використовуйте CSS властивість border до таблиці table, і елементів th та td. <br>
+                            Щоб позбавитись подвійних меж, як в наведеному вище прикладі, задайте для CSS властивості border-collapse значення collapse.
+                        </p>
+                        <table border="1">
+                            <tr>
+                                <th>Ім'я</th>
+                                <th>Прізвище</th>
+                            </tr>
+                            <tr>
+                                <td>Олена</td>
+                                <td>Іваненко</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h3>1.9.2 HTML Розмір таблиці</h3>
+                        <p>
+                            Щоб встановити розмір визначеного стовпця, додайте атрибут style до елементів &lt;th> або &lt;td>. <br>
+                            Щоб встановити висоту визначеного рядка, додайте атрибут style до елемента рядка таблиці. <br>
+                        </p>
+                        <table style="width:100%">
+                            <tr>
+                              <th>Ім'я</th>
+                              <th>Прізвище</th>
+                              <th>Вік</th>
+                            </tr>
+                            <tr style="height:200px">
+                              <td>Jill</td>
+                              <td>Smith</td>
+                              <td>50</td>
+                            </tr>
+                            <tr>
+                              <td>Eve</td>
+                              <td>Jackson</td>
+                              <td>94</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h3>1.9.3 HTML Заголовки таблиць</h3>
+                        <p>
+                            Заголовки таблиць визначаються елементами th, кожен елемент th представляє чарунку таблиці.
+                            Щоб вирівняти заголовки таблиці по лівому краю, використовуйте CSS властивість text-align.
+                        </p>
+                        <table>
+                            <tr>
+                              <th colspan="2">Ім'я</th>
+                              <th>Вік</th>
+                            </tr>
+                            <tr>
+                              <td>Jill</td>
+                              <td>Smith</td>
+                              <td>50</td>
+                            </tr>
+                            <tr>
+                              <td>Eve</td>
+                              <td>Jackson</td>
+                              <td>94</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h3>1.9.4 HTML Таблиці. Padding & Spacing</h3>
+                        <p>
+                            Cell Padding (відступи чарунок) – це простір між краями чарунок і змістом чарунки. За замовчуванням для заповнення встановлено значення 0.
+                            Щоб додати відступи до чарунок таблиці, використовуйте CSS властивість padding.
+                            Щоб додати відступ лише над змістом (тобто, вгорі), використовуйте властивість padding-top.
+                            Також інші сторони за допомогою властивостей padding-bottom (внизу), padding-left (ліворуч) і padding-right (праворуч)
+                        </p>
+                        <table style="border-spacing: 10px; border-collapse: separate;">
+                            <tr>
+                                <td>Софія</td>
+                                <td>Марія</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h3>1.9.5 HTML Таблиці. Colspan & Rowspan</h3>
+                        <p>
+                            Щоб створити чарунку, що охоплює кілька стовпців, використовуйте атрибут colspan.
+                            Щоб чарунка охопила кілька рядків, використовуйте атрибут rowspan.
+                        </p>
+                        <table border="1">
+                            <tr>
+                                <td colspan="2">Об'єднана ячейка</td>
+                            </tr>
+                            <tr>
+                                <td>Ячейка 1</td>
+                                <td>Ячейка 2</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h3>1.9.6 HTML Стилізація таблиць</h3>
+                        <table style="border: 1px solid black;">
+                            <tr>
+                                <th style="background-color: #D6EEEE;;">Ім'я</th>
+                                <th>Прізвище</th>
+                            </tr>
+                            <tr>
+                                <td>Jill</td>
+                                <td>Smith</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h3>1.9.7 HTML Група стовпців таблиці</h3>
+                        <p>
+                            Якщо ви хочете оформити два перших стовпця таблиці, використовуйте елементи &lt;colgroup&gt; та &lt;col&gt;.
+                            Елемент &lt;colgroup&gt; слід використовувати в якості контейнера для специфікацій стовпця.
+                            Кожна група вказується за допомогою елемента &lt;col&gt;.
+                            Атрибут span вказує, скільки стовпців отримує стиль.
+                            Атрибут style вказує стиль, що застосовується до стовпців.   
+                        </p>
+                        <table>
+                            <colgroup>
+                                <col span="2" style="background-color:yellow">
+                            </colgroup>
+                            <tr>
+                                <th>Ім'я</th>
+                                <th>Прізвище</th>
+                            </tr>
+                            <tr>
+                                <td>Jill</td>
+                                <td>Smith</td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.10 HTML Списки</h2>
+                Невпорядкований (ненумерований) список починається з тега &lt;ul&gt; Кожний елемент списку починається з тега &lt;li&gt;. <br>
+                Елементи списку будуть помічені маркерами (маленькі чорні кола) за замовчуванням.
+                <ul>
+                    <li>Елемент списку 1</li>
+                    <li>Елемент списку 2</li>
+                </ul>
+                Впорядкований (нумерований) список починається з тега &lt;ol&gt;. Кожний елемент списку починається з тега &lt;li&gt;.
+                Елементи списку будуть помічені номерами за замовчуванням
+                <ol>
+                    <li>Елемент списку 1</li>
+                    <li>Елемент списку 2</li>
+                </ol>
+                <ul>
+                    <li>
+                        <h3>1.10.1 HTML Невпорядковані списки</h3>
+                        <ul>
+                            <li>Елемент 1</li>
+                            <li>Елемент 2</li>
+                            <li>Елемент 3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>1.10.2 HTML Впорядковані списки</h3>
+                        <ol>
+                            <li>Перший елемент</li>
+                            <li>Другий елемент</li>
+                            <li>Третій елемент</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>1.10.3 HTML Інші списки</h3>
+                        <p>
+                            Список описів - це список термінів з описом кожного терміна.
+                            Тег &lt;dl&gt; визначає список описів, тег &lt;dt&gt; визначає термін (ім’я), а тег &lt;dd&gt; описує кожен термін.
+                        </p>
+                        <dl>
+                            <dt>Термін 1</dt>
+                            <dd>Визначення для терміна 1</dd>
+                            <dt>Термін 2</dt>
+                            <dd>Визначення для терміна 2</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <h3>1.10.4 HTML Вкладені списки</h3>
+                        <ul>
+                            <li>Перший елемент</li>
+                            <li>Другий елемент
+                                <ul>
+                                    <li>Перший вкладений елемент</li>
+                                    <li>Другий вкладений елемент</li>
+                                </ul>
+                            </li>
+                            <li>Третій елемент</li>
+                        </ul>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>2.1 HTML Форми</h2>
+                <p>
+                    Форма HTML використовується для збору даних, введених користувачем. Введені користувачем дані найчастіше надсилаються на сервер для обробки.
+                    HTML елемент &lt;form&gt; визначає форму, яка використовується для збору користувацького вводу.
+                    HTML-форма містить елементи форми. Елементи форми - це різні типи елементів вводу, такі як текстові поля, прапорці, перемикачі, кнопки надсилання тощо.
+                    Елемент &lt;input&gt; є найбільш важливим елементом форми.
+                    Елемент &lt;input&gt; може відображатися кількома способами, в залежності від атрибута type. 
+                </p>
+                <form action="/submit_form" method="post">
+                    <label for="fname">Ім'я:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Прізвище:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <input type="submit" value="Надіслати">
+                </form>
+                <ul>
+                    <li>
+                        <h3>2.1.1 HTML Атрибути форми</h3>
+                        <p>
+                            Атрибут action визначає дію, яка має бути виконана при надсиланні форми.
+                            Зазвичай дані форми надсилаються в файл на сервері, коли користувач натискає кнопку надсилання.
+                            В наведеному нижче прикладі дані форми надсилаються в файл з іменем "action_page.html". Цей файл містить серверний скрипт (зазвичай на мові PHP), який обробляє дані форми.
+                        </p>
+                        <form action="/action_page.html">
+                            <label for="fname">Ім'я:</label><br>
+                            <input type="text" id="fname" name="fname" value="John"><br>
+                            <label for="lname">Прізвище:</label><br>
+                            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                            <input type="submit" value="Відправити">
+                        </form>
+                        <p>
+                            Атрибут method визначає метод HTTP, який буде використовуватися при надсиланні даних форми.
+                            Дані форми можуть бути відправлені як змінні URL (з method="get") або як HTTP post транзакція (з method="post").
+                            Метод HTTP за замовчуванням при надсиланні даних форми - GET.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>2.1.2 HTML Елементи форми</h3>
+                        HTML елемент &lt;form&gt; може містити один або кілька таких елементів форми:
+                        <ul>
+                            <li>&lt;input&gt;</li>
+                            <li>&lt;label&gt;</li>
+                            <li>&lt;select&gt;</li>
+                            <li>&lt;textarea&gt;</li>
+                            <li>&lt;button&gt;</li>
+                            <li>&lt;fieldset&gt;</li>
+                            <li>&lt;legend&gt;</li>
+                            <li>&lt;datalist&gt;</li>
+                            <li>&lt;output&gt;</li>
+                            <li>&lt;option&gt;</li>
+                            <li>&lt;optgroup&gt;</li>
+                        </ul>
+                        Елемент &lt;select&gt; визначає drop-down список (випадаючий список)
+                        <select name="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <p>
+                            Елемент &lt;textarea&gt; визначає багаторядкове поле вводу (текстової області).
+                            Атрибут rows визначає видиму кількість рядків в текстовій області. Атрибут cols визначає видиму ширину текстової області.
+                            Ось як HTML-код вище буде відображатися в браузері:
+                        </p>
+                        <textarea name="message" rows="10" cols="30">
+                            The cat was playing in the garden.
+                        </textarea>
+                        <p>
+                            Елемент &lt;datalist&gt; визначає список попередньо визначених параметрів для елемента &lt;input&gt;.
+                            Користувачі побачать випадаючий список попередньо визначених параметрів при введенні даних.
+                            Ось як HTML-код вище буде відображатися в браузері:
+                        </p>
+                        <textarea name="message" rows="10" cols="30">
+                            The cat was playing in the garden.
+                        </textarea>
+                        <p>
+                            Елемент &lt;datalist&gt; визначає список попередньо визначених параметрів для елемента &lt;input&gt;.
+                            Користувачі побачать випадаючий список попередньо визначених параметрів при введенні даних.
+                            Атрибут list елемента &lt;input&gt;повинен посилатися на атрибут id елемента &lt;datalist&gt;.
+                        </p>
+                        <form action="/action_page.html">
+                            <input list="browsers">
+                            <datalist id="browsers">
+                              <option value="Internet Explorer">
+                              <option value="Firefox">
+                              <option value="Chrome">
+                              <option value="Opera">
+                              <option value="Safari">
+                            </datalist>
+                        </form>
+                        Елемент &lt;output&gt; представляє результат обрахування (наприклад, виконаний скриптом).
+                        <form action="/action_page.html" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                            0
+                            <input type="range"  id="a" name="a" value="50">
+                            100 +
+                            <input type="number" id="b" name="b" value="50">
+                            =
+                            <output name="x" for="a b"></output>
+                            <input type="submit">
+                        </form>
+                        <form action="/submit_form">
+                            <label for="email">Електронна пошта:</label>
+                            <input type="email" id="email" name="email"><br><br>
+                            <label for="birthday">Дата народження:</label>
+                            <input type="date" id="birthday" name="birthday"><br><br>
+                            <input type="submit" value="Надіслати">
+                        </form>
+                        <ul>
+                            HTML Елементи форми:
+                            <li> &lt;form&gt;	Визначає HTML форму для користувальницького вводу</li>
+                            <li> &lt;input&gt;	Визначає елемент управління вводом</li>
+                            <li> &lt;textarea&gt;	Визначає багаторядковий елемент управління введенням (текстова область)</li>
+                            <li> &lt;label&gt;	Визначає мітку для елемента  &lt;input&gt;</li>
+                            <li> &lt;fieldset&gt;	Групує пов’язані елементи в формі</li>
+                            <li> &lt;legend&gt;	Визначає заголовок для елемента &lt;fieldset&gt;</li>
+                            <li> &lt;select&gt;	Визначає випадаючий (розкриваючий) список</li>
+                            <li> &lt;optgroup&gt;	Визначає группу пов’язаних параметрів в випадаючому списку</li>
+                            <li> &lt;option&gt;	Визначає параметр в випадаючому списку</li>
+                            <li> &lt;button&gt;	Визначає клікабельну кнопку</li>
+                            <li> &lt;datalist&gt;	Визначає список попередньо визначених параметрів для елементів управління вводом</li>
+                            <li> &lt;output&gt;	Визначає результат розрахунку</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>2.1.3 HTML Типи вводу</h3>
+                        Тут різні типи введення, які ви можете використовувати в HTML:
+                        <ul>
+                            <li> &lt;input type="button"&gt;</li>
+                            <li> &lt;input type="checkbox"&gt;</li>
+                            <li> &lt;input type="color"&gt;</li>
+                            <li> &lt;input type="date"&gt;</li>
+                            <li> &lt;input type="datetime-local"&gt;</li>
+                            <li> &lt;input type="email"&gt;</li>
+                            <li> &lt;input type="file"&gt;</li>
+                            <li> &lt;input type="hidden"&gt;</li>
+                            <li> &lt;input type="image"&gt;</li>
+                            <li> &lt;input type="month"&gt;</li>
+                            <li> &lt;input type="number"&gt;</li>
+                            <li> &lt;input type="password"&gt;</li>
+                            <li> &lt;input type="radio"&gt;</li>
+                            <li> &lt;input type="range"&gt;</li>
+                            <li> &lt;input type="reset"&gt;</li>
+                            <li> &lt;input type="search"&gt;</li>
+                            <li> &lt;input type="submit"&gt;</li>
+                            <li> &lt;input type="tel"&gt;</li>
+                            <li> &lt;input type="text"&gt;</li>
+                            <li> &lt;input type="time"&gt;</li>
+                            <li> &lt;input type="url"&gt;</li>
+                            <li> &lt;input type="week"&gt;</li>
+                        </ul>
+                        <form action="/submit_form">
+                            <label for="password">Пароль:</label>
+                            <input type="password" id="password" name="password"><br><br>
+                            <label for="file">Завантажити файл:</label>
+                            <input type="file" id="file" name="file"><br><br>
+                            <input type="submit" value="Надіслати">
+                        </form>
+                    </li>
+                    <li>
+                        <h3>2.1.4 HTML Атрибути вводу</h3>
+                        <form action="/submit_form">
+                            <label for="username">Користувач:</label>
+                            <input type="text" id="username" name="username" required><br><br>
+                            <label for="age">Вік:</label>
+                            <input type="number" id="age" name="age" min="18" max="100"><br><br>
+                            <input type="submit" value="Надіслати">
+                        </form>
+                    </li>
+                    <li>
+                        <h3>2.1.5 HTML Атрибути вводу</h3>
+                        <form action="/submit_form">
+                            <label for="search">Пошук:</label>
+                            <input type="search" id="search" name="search"><br><br>
+                            <label for="phone">Телефон:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+                            <input type="submit" value="Надіслати">
+                        </form>
+                    </li>
+                </ul>
+            </ol>
+        </ul>
+    </section>
+
+<!-- Самостійн робота №2 -->
+
+    <section class="second">
+        <h1>Самостійна робота №2</h1>
+        <ul>
+            <ol>
+                <h2>1.1 CSS Контур</h2>
+                <p>Контур - це смуга, яка проводиться навколо елементів ПОЗА МЕЖАМИ, щоб зробити елемент "виокремленим". CSS має наступні властивості контуру:
+                <ul>
+                   <li>outline-style
+                   <li>outline-color
+                   <li>outline-width
+                   <li>outline-offset
+                   <li>outline
+                </ul>
+                Властивість outline-style визначає стиль контуру і може мати одне з наступних значень:
+                <ul>
+                    <li>dotted - Визначає цятковий контур</li>
+                    <li>dashed - Визначає пунктирний контур</li>
+                    <li>solid - Визначає суцільний контур</li>
+                    <li>double - Визначає подвійний контур</li>
+                    <li>groove - Визначає 3D рифлений контур</li>
+                    <li>ridge - Визначає 3D ребристий контур</li>
+                    <li>inset - Визначає 3D внутрішній контур</li>
+                    <li>outset - Визначає 3D зовнішній контур</li>
+                    <li>none - Визначає відсутність контуру</li>
+                    <li>hidden - Визначає прихований контур</li>
+                </ul>
+                <p class="example">
+                    <style>
+                        .outline-example {
+                            outline: 2px solid blue;
+                            padding: 10px;
+                        }
+                    </style>
+                    <div class="outline-example">Цей блок має контур.</div>
+                </p>
+                <ul>
+                    <li>
+                        <h3>1.1.1 CSS Ширина контуру</h3>
+                        <p class="example">
+                            <style>
+                                .outline-width-example {
+                                    outline: 5px solid rgb(21, 255, 0);
+                                }
+                            </style>
+                            <div class="outline-width-example">Цей блок має ширший контур.</div>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.1.2 CSS Колір контуру</h3>
+                        <p class="example">
+                            <style>
+                                .outline-color-example {
+                                    outline: 3px dashed rgb(128, 0, 23);
+                                }
+                            </style>
+                            <div class="outline-color-example">Цей блок має кольоровий контур.</div>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.1.3 CSS Скорочена властивість контуру</h3>
+                        <p class="example">
+                            <style>
+                                .outline-shorthand-example {
+                                    outline: 2px dotted rgb(0, 111, 128);
+                                }
+                            </style>
+                            <div class="outline-shorthand-example">Цей блок має скорочену властивість контуру.</div>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>1.1.4 CSS Outline Offset</h2>
+                        <p class="example">
+                            <style>
+                                .outline-offset-example {
+                                    outline: 2px solid black;
+                                    outline-offset: 10px;
+                                }
+                            </style>
+                            <div class="outline-offset-example">Цей блок має зсунутий контур.</div>
+                        </p>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.2 CSS Текст</h2>
+                Властивість color використовується для встановлення кольору тексту. Колір вказується за допомогою:
+                    <ul>
+                        <li> назва кольору - наприклад "red"</li>
+                        <li> значення HEX - наприклад "#ff0000"</li>
+                        <li> значення RGB - наприклад "rgb(255,0,0)"</li>
+                    </ul>
+                Подивіться розділ CSS Значення кольорів на нашому сайті W3Schools українською для отримання повного списку можливих значень кольору.
+                Колір тексту за замовчуванням для сторінки визначається в селекторі основного тексту.
+                <p class="example">
+                    <p style="color: blue;">Цей текст має синій колір.</p>
+                </p>
+                <ul>
+                    <li>
+                        <h3>1.2.1 CSS Вирівнювання тексту</h3>
+                        <ul>
+                            <li> text-align</li>
+                            <li> text-align-last</li>
+                            <li> значення RGB - наприклад "rgb(255,0,0)"</li>
+                            <li>direction</li>
+                            <li>unicode-bidi</li>
+                            <li>vertical-align</li>
+                        </ul>
+                        <p class="example">
+                            <p style="text-align: center;">Цей текст вирівняно по центру.</p>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.2.2 CSS Оформлення тексту</h3>
+                        <p class="example">
+                            <p style="text-decoration: underline;">Цей текст підкреслено.</p>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.2.3 CSS Трансформація тексту</h3>
+                        <p class="example">
+                            <p style="text-transform: uppercase;">Цей текст у верхньому регістрі.</p>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.2.4 CSS Інтервал тексту</h3>
+                        <p class="example">
+                            <p style="letter-spacing: 2px;">Цей текст має більший інтервал між літерами.</p>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.2.5 CSS Тінь тексту</h3>
+                        <p class="example">
+                            <style>
+                                .text-shadow-example {
+                                    text-shadow: 2px 2px 5px gray;
+                                }
+                            </style>
+                            <p class="text-shadow-example">Цей текст має тінь.</p>
+                        </p>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.3 CSS Шрифти</h2>
+                <p>
+                    Вибір правильного шрифту має великий вплив на те, як читачі сприймають вебсайт.
+                    Правильний шрифт може створити сильну ідентичність для вашого бренду.
+                    Дуже важливо використовувати шрифт, який легко читається. Шрифт додає цінність вашому тексту. Також важливо обрати правильний колір і розмір тексту для шрифту.
+                    Загальні сімейства шрифтів <br>
+                    В CSS є п’ять загальних сімейств шрифтів: 
+                </p>
+                <ul>
+                    <li>Serif шрифти - мають невеличке обведення по краях кожної літери. Вони створюють відчуття формальності та елегантності.</li>
+                    <li>Sans-serif шрифти - мають чисті лінії (без дрібних штрихів). Вони створюють сучасний і мінімалістичний вигляд.</li>
+                    <li>Monospace шрифти - всі літери мають однакову фіксовану ширину. Вони створюють механічний вигляд.</li>
+                    <li>Cursive шрифти - імітують людський почерк.</li>
+                    <li>Fantasy шрифти - це декоративні/гральні шрифти.</li>
+                    <li>Всі різні назви шрифтів належать до одного з загальних сімейств шрифтів.</li>
+                </ul>
+                <p class="example">
+                    <p style="font-family: 'Courier New', Courier, monospace;">Цей текст з шрифтом Courier New.</p>
+                </p>
+                <ul>
+                    <li>
+                        <h3>1.3.1 CSS Веб-безпечні шрифти</h3>
+                        <p>
+                            Що таке веб-безпечні шрифти <br>
+                            Веб-безпечні шрифти - це шрифти, які універсально встановлюються в усіх браузерах і на всіх пристроях. <br>
+                            Резервні шрифти <br>
+                            Однак 100% повністю безпечних веб-шрифтів не існує. Завжди є шанс, що шрифт може бути не знайдений або встановлений неправильно.
+                            Тому дуже важливо завжди використовувати резервні шрифти.
+                            Це означає, що вам слід додати список схожих "резервних шрифтів" у властивості font-family. Якщо перший шрифт не працює, браузер спробує використовувати наступний, потім знову наступний і т.д. Завжди закінчуйте список загальною назвою сімейства шрифтів.
+                        </p>
+                        <p class="example">
+                            <p style="font-family: Arial, sans-serif;">Цей текст з веб-безпечним шрифтом Arial.</p>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.3.2 CSS Запасні шрифти</h3>
+                        <p class="example">
+                            <p style="font-family: Arial, 'Helvetica Neue', sans-serif;">Цей текст з запасними шрифтами.</p>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.3.3 CSS Стиль шрифту</h3>
+                        <p class="example">
+                            <p style="font-style: italic;">Цей текст курсивом.</p>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>1.3.4 CSS Розмір шрифту</h3>
+                        <p>
+                            Властивість font-size визначає розмір тексту. <br>
+                            Можливість керувати розміром тексту важлива в веб-дизайні. Однак не варто використовувати налаштування розміру шрифту, щоб параграфи вигляділи як заголовки, а заголовки - як параграфи.
+                            Завжди використовуйте правильні HTML теги, наприклад &lt;h1&gt; - &lt;h6&gt; для заголовків та &lt;p&gt; для параграфів.
+                            Значення font-size може бути абсолютним або відносним.
+                        </p>
+                        <ul>
+                            Абсолютний розмір:
+                            <li>Встановлює текст вказаного розміру</li>
+                            <li>Не дозволяє користувачу змінювати розмір тексту в усіх браузерах (погано через доступність)</li>
+                            <li>Абсолютний розмір має користь, коли відомий фізичний розмір виведення</li>
+                        </ul>
+                        <ul>
+                            Відносний розмір:
+                            <li>Встановлює розмір відносно оточуючих елементів</li>
+                            <li>Дозволяє користувачу змінювати розмір тексту в браузерах</li>
+                        </ul>
+                        <p class="example">
+                            <p style="font-size: 20px;">Цей текст з більшим розміром шрифту.</p>
+                        </p>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.4 CSS Синтаксис</h2>
+                <p>
+                    CSS синтаксис складається з селекторів і властивостей:<br>
+                    <code>selector { property: value; }</code> <br>
+        
+                    Селектор вказує на елемент HTML, який ви хочете стилізувати.
+                    Блок об’яв містить одну або кілька об’яв, розділених крапкою з комою. Кожна об’ява включає назву CSS-властивості та значення, розділені двокрапкою.
+                    Об’ява CSS завжди закінчюється крапкою з комою, а блоки об’яв беруться у фігурні дужки.
+                </p>
+            </ol>
+            <ol>
+                <h2>1.5 CSS Селектори</h2>
+                <p>
+                    <code>p { color: red; }</code> - вибирає всі параграфи.<br>
+                    <code>.classname { color: blue; }</code> - вибирає всі елементи з класом classname.
+                </p>
+            </ol>
+            <ol>
+                <h2>1.6 CSS Кольори (RGB, HEX, HSL)</h2>
+                <p>
+                    <p style="color: #FF5733;">Цей текст має HEX колір.</p>
+                    <p style="color: rgb(255, 87, 51);">Цей текст має RGB колір.</p>
+                    <p style="color: hsl(9, 100%, 60%);">Цей текст має HSL колір.</p>
+                </p>
+            </ol>
+            <ol>
+                <h2>1.7 CSS Фони</h2>
+                <style>
+                    .background-example {
+                        background-color: lightblue;
+                        padding: 20px;
+                    }
+                </style>
+                <div class="background-example">Цей блок має фон.</div>
+            </ol>
+            <ol>
+                <h2>1.8 CSS Посилання</h2>
+                <a href="#" style="color: green;">Це посилання зеленого кольору.</a>
+            </ol>
+            <ol>
+                <h2>1.9 CSS Списки</h2>
+                <ul>
+                    <li>Пункт 1</li>
+                    <li>Пункт 2</li>
+                    <li>Пункт 3</li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>1.10 CSS Таблиці. Межі</h2>
+                <p class="example">
+                    <style>
+                        table,
+                        th,
+                        td {
+                            border: 1px solid black;
+                        }
+                    </style>
+                    <table>
+                        <tr>
+                            <th>Заголовок 1</th>
+                            <th>Заголовок 2</th>
+                        </tr>
+                        <tr>
+                            <td>Дані 1</td>
+                            <td>Дані 2</td>
+                        </tr>
+                    </table>
+                </p>
+            </ol>
+        </ul>
+
+        <h2>CSS ПРОДВИНУТИЙ</h2>
+        <ul>
+            <ol>
+                <h2>2.1 Заокруглені кути</h2>
+                <p class="example">
+                    <style>
+                        .rounded-example {
+                            border-radius: 10px;
+                            background-color: lightgrey;
+                            padding: 20px;
+                        }
+                    </style>
+                    <div class="rounded-example">Цей блок має заокруглені кути.</div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.2 CSS анімації</h2>
+                <p>
+                    <style>
+                        @keyframes example {
+                            from {
+                                background-color: red;
+                            }
+
+                            to {
+                                background-color: yellow;
+                            }
+                        }
+
+                        .animation-example {
+                            width: 100px;
+                            height: 100px;
+                            animation-name: example;
+                            animation-duration: 4s;
+                        }
+                    </style>
+                    <div class="animation-example"></div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.3 Підказки CSS</h2>
+                <p class="example">
+                    <style>
+                        .tooltip {
+                            position: relative;
+                            display: inline-block;
+                        }
+
+                        .tooltip .tooltiptext {
+                            visibility: hidden;
+                            width: 120px;
+                            background-color: black;
+                            color: #fff;
+                            text-align: center;
+                            border-radius: 5px;
+                            padding: 5px;
+                            position: absolute;
+                            z-index: 1;
+                            bottom: 100%;
+                            left: 50%;
+                            margin-left: -60px;
+                        }
+
+                        .tooltip:hover .tooltiptext {
+                            visibility: visible;
+                        }
+                    </style>
+                    <div class="tooltip">Наведіть курсор на мене
+                        <span class="tooltiptext">Підказка тексту</span>
+                    </div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.4 Кнопки CSS</h2>
+                <p class="example">
+                    <style>
+                        .button {
+                            background-color: blue;
+                            color: white;
+                            padding: 10px 20px;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+
+                        .button:hover {
+                            background-color: darkblue;
+                        }
+                    </style>
+                    <button class="button">Кнопка</button>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.5 CSS Пагінація</h2>
+                <p class="example">
+                    <style>
+                        .pagination {
+                            display: inline-block;
+                        }
+
+                        .pagination a {
+                            color: black;
+                            float: left;
+                            padding: 8px 16px;
+                            text-decoration: none;
+                            transition: background-color .3s;
+                        }
+
+                        .pagination a:hover {
+                            background-color: #ddd;
+                        }
+                    </style>
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.6 Створення стовпців CSS</h2>
+                <p class="example">
+                    <style>
+                        .column {
+                            column-count: 2;
+                            column-gap: 20px;
+                        }
+                    </style>
+                    <div class="column">
+                        <p>Цей текст буде розбитий на два стовпці.</p>
+                        <p>Додатковий текст для демонстрації.</p>
+                    </div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.7 Випадаючі списки CSS</h2>
+                <p>
+                    Пояснення прикладу
+                    Використовуйте будь-який елемент, щоб відкрити випадаючий контент, наприклад елемент span або button.
+                    Використовуйте елемент контейнера (наприклад, div), щоб створити випадаючий контент та додати в нього все, що ви хочете.
+                    Огорніть елемент div навколо елементів, щоб правильно размістити контент, що відкривається, за допомогою CSS.
+                    CSS Клас .dropdown використовує position: relative, який потрібен, коли ми хочемо, щоб зміст списку, що розкривається, розміщувався прямо під кнопкою списку, що розкривається (використовуючи position: absolute).
+                    Клас .dropdown-content містить фактичний контент, що розкривається. За замовчуванням він прихований і буде відображатися при наведенні миші (див. нижче). Зверніть увагу, що для min-width встановлено значення 160px. Можете змінити його.
+                    Порада. Якщо ви хочете, щоб ширина змісту, що розкривається, була такою ж ширини, як і кнопка, що розкривається, встановіть для width значення 100% (та overflow:auto для включення прокрутки на маленьких екранах).
+                </p>
+                <p class="example">
+                    <style>
+                        .dropdown {
+                            position: relative;
+                            display: inline-block;
+                        }
+        
+                        .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            background-color: #f9f9f9;
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(227, 155, 68, 0.2);
+                            z-index: 1;
+                        }
+        
+                        .dropdown:hover .dropdown-content {
+                            display: block;
+                        }
+                    </style>
+                    <div class="dropdown">Наведіть курсор
+                        <div class="dropdown-content">
+                            <p>Пункт 1</p>
+                            <p>Пункт 2</p>
+                            <p>Пункт 3</p>
+                        </div>
+                    </div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.8 Кольорові ключові слова CSS</h2>
+                <p>
+                    <p style="color: teal;">Цей текст має колір "teal".</p>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.9 Тіньові ефекти CSS</h2>
+                <p class="example">
+                    <style>
+                        .shadow-example {
+                            box-shadow: 5px 5px 5px grey;
+                            padding: 10px;
+                            background-color: white;
+                        }
+                    </style>
+                    <div class="shadow-example">Цей блок має тіньовий ефект.</div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.10 CSS Box Shadow</h2>
+                <p class="example">
+                    <style>
+                        .box-shadow-example {
+                            box-shadow: 10px 10px 15px rgba(83, 220, 254, 0.5);
+                            padding: 20px;
+                            background-color: #fff;
+                        }
+                    </style>
+                    <div class="box-shadow-example">Цей блок має тінь рамки.</div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.11 Переходи CSS</h2>
+                <p>
+                    <style>
+                        .transition-example {
+                            width: 100px;
+                            height: 100px;
+                            background-color: blue;
+                            transition: background-color 0.5s ease;
+                        }
+
+                        .transition-example:hover {
+                            background-color: red;
+                        }
+                    </style>
+                    <div class="transition-example"></div>
+                </p>
+            </ol>
+            <ol>
+                <h2>2.12 Текстові ефекти CSS</h2>
+                <p>
+                    <style>
+                        .text-effect {
+                            font-size: 40px;
+                            color: blue;
+                            text-shadow: 2px 2px 5px rgb(128, 128, 128);
+                        }
+                    </style>
+                    <p class="text-effect">Цей текст має ефект.</p>
+                </p>
+            </ol>
+        </ul>
+
+        <ul>
+            <ol>
+                <h2>3.1 CSS Контур</h2>
+                <div class="outline-example">Цей блок має контур.</div>
+                <ul>
+                    <li>
+                        <h3>3.1.1 CSS Ширина контуру</h3>
+                        <div class="outline-width-example">Цей блок має ширший контур.</div>
+                    </li>
+                    <li>
+                        <h3>3.1.2 CSS Колір контуру</h3>
+                        <div class="outline-color-example">Цей блок має кольоровий контур.</div>
+                    </li>
+                    <li>
+                        <h3>3.1.3 CSS Скорочена властивість контуру</h3>
+                        <div class="outline-shorthand-example">Цей блок має скорочену властивість контуру.</div>
+                    </li>
+                    <li>
+                        <h3>3.1.4 CSS Outline Offset</h3>
+                        <div class="outline-offset-example">Цей блок має зсунутий контур.</div>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>3.2 CSS Текст</h2>
+                <p style="color: blue;">Цей текст має синій колір.</p>
+                <ul>
+                    <li>
+                        <h3>3.2.1 CSS Вирівнювання тексту</h3>
+                        <p style="text-align: center;">Цей текст вирівняно по центру.</p>
+                    </li>
+                    <li>
+                        <h3>3.2.2 CSS Оформлення тексту</h3>
+                        <p style="text-decoration: underline;">Цей текст підкреслено.</p>
+                    </li>
+                    <li>
+                        <h3>3.2.3 CSS Трансформація тексту</h3>
+                        <p style="text-transform: uppercase;">Цей текст у верхньому регістрі.</p>
+                    </li>
+                    <li>
+                        <h3>3.2.4 CSS Інтервал тексту</h3>
+                        <p style="letter-spacing: 2px;">Цей текст має більший інтервал між літерами.</p>
+                    </li>
+                    <li>
+                        <h3>3.2.5 CSS Тінь тексту</h3>
+                        <p class="text-shadow-example">Цей текст має тінь.</p>
+                    </li>
+                </ul>
+            </ol>
+        </ul>
+
+        <ul>
+            <ol>
+                <h2>4.1 CSS Шрифти</h2>
+                <p style="font-family: 'Courier New', Courier, monospace;">Цей текст з шрифтом Courier New.</p>
+                <ul>
+                    <li>
+                        <h3>4.1.1 CSS Веб-безпечні шрифти</h3>
+                        <p>
+                            Що таке веб-безпечні шрифти <br>
+                            Веб-безпечні шрифти - це шрифти, які універсально встановлюються в усіх браузерах і на всіх пристроях. <br>
+                            Резервні шрифти <br>
+                            Однак 100% повністю безпечних веб-шрифтів не існує. Завжди є шанс, що шрифт може бути не знайдений або встановлений неправильно.
+                            Тому дуже важливо завжди використовувати резервні шрифти.
+                            Це означає, що вам слід додати список схожих "резервних шрифтів" у властивості font-family. Якщо перший шрифт не працює, браузер спробує використовувати наступний, потім знову наступний і т.д. Завжди закінчуйте список загальною назвою сімейства шрифтів.
+                        </p>
+                        <p style="font-family: Arial, sans-serif;">Цей текст з веб-безпечним шрифтом Arial.</p>
+                    </li>
+                    <li>
+                        <h3>4.1.2 CSS Запасні шрифти</h3>
+                        <p style="font-family: Arial, 'Helvetica Neue', sans-serif;">Цей текст з запасними шрифтами.</p>
+                    </li>
+                    <li>
+                        <h3>4.1.3 CSS Стиль шрифту</h3>
+                        <p style="font-style: italic;">Цей текст курсивом.</p>
+                    </li>
+                    <li>
+                        <h3>4.1.4 CSS Розмір шрифту</h3>
+                        <p style="font-size: 20px;">Цей текст з більшим розміром шрифту.</p>
+                    </li>
+                </ul>
+            </ol>
+            <ol>
+                <h2>4.2 CSS Синтаксис</h2>
+                <p>CSS синтаксис складається з селекторів і властивостей:<br>
+                    <code>selector { property: value; }</code>
+                </p>    
+            </ol>
+            <ol>
+                <h2>4.3 CSS Селектори</h2>
+                <p>
+                    <code>p { color: red; }</code> - вибирає всі параграфи.<br>
+                    <code>.classname { color: blue; }</code> - вибирає всі елементи з класом classname.
+                </p>
+            </ol>
+            <ol>
+                <h2>4.4 CSS Кольори (RGB, HEX, HSL)</h2>
+                <p>
+                    <p style="color: #FF5733;">Цей текст має HEX колір.</p>
+                    <p style="color: rgb(255, 87, 51);">Цей текст має RGB колір.</p>
+                    <p style="color: hsl(9, 100%, 60%);">Цей текст має HSL колір.</p>
+                </p>
+            </ol>
+            <ol>
+                <h2>4.5 CSS Фони</h2>
+                <style>
+                    .background-example {
+                        background-color: lightblue;
+                        padding: 20px;
+                    }
+                </style>
+                <div class="background-example">Цей блок має фон.</div>
+            </ol>
+            <ol>
+                <h2>4.5 CSS Краї</h2>
+                <div class="rounded-example">Цей блок має округлені краї.</div>
+            </ol>
+            <ol>
+                <h2>4.6 CSS Анімації</h2>
+                <div class="animation-example">Цей блок анімований.</div> 
+            </ol>
+            <ol>
+                <h2>4.7 CSS Tooltip</h2>
+                <div class="tooltip">Наведіть курсор, щоб побачити підказку.
+                    <span class="tooltiptext">Це текст підказки</span>
+                </div>
+            </ol>
+            <ol>
+                <h2>4.8 CSS Кнопки</h2>
+                <button class="button">Ця кнопка змінює колір при наведенні</button>
+            </ol>
+            <ol>
+                <h2>4.9 CSS Сторінка з нумерацією</h2>
+                <div class="pagination">
+                    <a href="#">«</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">»</a>
+                </div>
+            </ol>
+            <ol>
+                <h2>4.10 CSS Коло</h2>
+                <div class="column">
+                    <p>Цей текст буде в декількох стовпцях.</p>
+                    <p>Додайте більше тексту, щоб перевірити, як він розподіляється.</p>
+                </div>
+            </ol>
+            <ol>
+                <h2>4.11 CSS Dropdown</h2>
+                <div class="dropdown">
+                    <button class="button">Dropdown</button>
+                    <div class="dropdown-content">
+                        <p>Варіант 1</p>
+                        <p>Варіант 2</p>
+                    </div>
+                </div>
+            </ol>
+            <ol>
+                <h2>4.12 CSS Тінь</h2>
+                <div class="shadow-example">Цей блок має тінь.</div>
+            </ol>
+            <ol>
+                <h2>4.13 CSS Box Shadow</h2>
+                <div class="box-shadow-example">Цей блок має box-shadow.</div>
+            </ol>
+            <ol>
+                <h2>4.14 CSS Перехід</h2>
+                <div class="transition-example">Наведіть на мене</div>
+            </ol>
+        </ul>
+    </section>
+</body>
+</html>
